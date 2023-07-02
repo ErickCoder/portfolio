@@ -7,28 +7,28 @@ const MyPorjects = () => {
     {/* left section  */}
     <section className='lg:grid gap-6'>
       <h4 className="text-gray-400 font-bold">MY PROJECTS</h4>
-      <h2 className="text-2xl mt-2 md:mt-6 md:text-5xl font-semibold text-white">Work that I've done for the past 1 year.</h2>
+      <h2 className="text-2xl mt-2 md:mt-6 md:text-5xl font-semibold text-white">Projects that have been recently completed.</h2>
 
-      <article className="bg-gradient-to-b from-zinc-900/10  to-zinc-900 mt-8 md:mt-14">
+      <article className="bg-gradient-to-b from-zinc-900/10  to-zinc-900 mt-8 md:mt-14p">
         <div>
           <img className="max-w-full" src="/images/weatherApp.png" alt="" />
         </div>
 
         <div className="p-6">
-          <h3 className="text-base md:text-2xl md:text-center lg:text-base lg:text-start text-white font-semibold">Restaurant website design</h3>
-          <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil quaerat dolores. Pariatur quas illo voluptate provident veritatis omnis.</p>
+          <h3 className="text-base md:text-2xl md:text-center lg:text-base lg:text-start text-white font-semibold">weather App</h3>
+          <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start font-normal">Provides up-to-date information on weather conditions in different locations. It provides details such as temperature, humidity, wind speed and short-term forecast. You can search for specific locations or use geolocation.</p>
         </div>
       </article>
 
       <article className="mt-8 bg-gradient-to-b from-zinc-900/10  to-zinc-900">
 
         <div>
-          <img src="/images/pokeApi.png" alt="" />
+          <img className='max-w-full' src="/images/pokeApi.png" alt="" />
         </div>
 
         <div className="p-6">
           <h3 className="text-base md:text-2xl md:text-center lg:text-base lg:text-start text-white font-semibold">Pokémon Api</h3>
-          <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil quaerat dolores. Pariatur quas illo voluptate provident veritatis omnis.</p>
+          <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start">Web application about the pokemon animated series; you can register with your name and start your pokemon path, the application shows skills of different pokemon as well as their elements and movements.</p>
         </div>
 
       </article>
@@ -39,11 +39,11 @@ const MyPorjects = () => {
     <section className='lg:grid gap-6'>
       <article className="bg-gradient-to-b from-zinc-900/10  to-zinc-900 mt-6 lg:mt-0">
         <div>
-          <img src="/images/Meta.png" alt="" />
+          <img className='max-w-full' src="/images/crud.png" alt="" />
         </div>
         <div className="p-6">
           <h3 className="text-base md:text-2xl md:text-center lg:text-base lg:text-start text-white font-semibold">Restaurant website design</h3>
-          <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil quaerat dolores. Pariatur quas illo voluptate provident veritatis omnis.</p>
+          <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start">The use of a CRUD in application development offers several advantages and benefits. First, it provides a clear and standardized structure for data management, which facilitates system maintenance and scalability. In addition, CRUD simplifies interaction with the database, allowing basic operations to be performed quickly and efficiently. This translates into a more agile development and a better user experience.</p>
         </div>
       </article>
 

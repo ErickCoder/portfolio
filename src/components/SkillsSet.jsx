@@ -14,9 +14,7 @@ const SkillsSet = () => {
             </p>
 
             <p className="text-[#8491A0] text-lg font-sen font-normal text-justify pl-5 pr-4 py-6">
-              With skills in over 4 different fields of design, I am the perfect
-              person to hire when it comes to a full fledged project. Whatever
-              your needs are, I can pretty much take on any challenge.
+            With different skills, I am the perfect person to hire when it comes to a complete project. Whatever your needs are, I can take on any challenge.
             </p>
           </section>
        {/*  </div> */}
@@ -42,7 +40,7 @@ const SkillsSet = () => {
               Wordpress{" "}
             </p>
             <p className="text-[#8491A0]   text-lg font-sen font-normal">
-              Boostrap{" "}
+              Bulma{" "}
             </p>
           </div>
         </article>
@@ -55,14 +53,17 @@ const SkillsSet = () => {
 
           <div className="grid gap-3">
             <p className="text-white font-sen text-2xl font-bold">
-              Source Control
+            Agile Methodology
             </p>
 
             <p className="text-[#8491A0]  text-lg font-sen font-normal">
-              Git/GitHub{" "}
+              SCRUM/ Agil{" "}
             </p>
             <p className="text-[#8491A0]  text-lg font-sen font-normal">
-              SCRUM/ Agil{" "}
+            Kanban Method{" "}
+            </p>
+            <p className="text-[#8491A0]  text-lg font-sen font-normal">
+            Daily Meets{" "}
             </p>
           </div>
         </section>

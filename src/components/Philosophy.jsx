@@ -14,21 +14,18 @@ const Philosophy = () => {
         </div>
         <div className="text-base text-center">
           <p className="text-[#181823] p-5 pt-4 font-sen">
-            I think everyone wants the same thing - relationship with humanity,
-            peace with the metaphysical, and experience with the universe. I try
-            to grasp these things with my values: authenticity, creativity, &
-            hospitality.
+          I think everyone wants the same thing: relationship with humanity, peace with the metaphysical and experience with the universe. I try to capture these things with my values: authenticity, creativity and kindness.
           </p>
         </div>
 
     <div className=" flex justify-center pb-4">
     <div className="px-5 pb-10 pt-4">
-          <button
-            href=""
-            className="text-[#181823] font-medium border-2 p-2 border-[#181823] "
+          <a
+            href="https://www.linkedin.com/in/erickcedenop/" target="blank"
+            className="text-[#181823] font-medium border-2 p-2 border-[#181823] hover:bg-teal-100 hover:font-semibold duration-500 "
           >
             Check my Linkedin
-          </button>
+          </a>
         </div>
     </div>
       </div>
