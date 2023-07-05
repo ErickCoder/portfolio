@@ -14,6 +14,22 @@ const Presentation = () => {
       1010:max-w-[740px]
       1040:max-w-[770px]
       1070:max-w-[800px]
+      1100:max-w-[830px]
+      1130:max-w-[860px]
+      1160:max-w-[890px]
+      1190:max-w-[920px]
+      1220:max-w-[950px]
+      1250:max-w-[980px]
+     1310:max-w-[900px]
+     1400:max-w-[1000px]
+     1430:max-w-[1010px]
+     1460:max-w-[1040px]
+     1490:max-w-[1070px]
+     1520:max-w-[1100px]
+     1550:max-w-[1130px]
+     1580:max-w-[1160px]
+     1600:max-w-[1100px]
+     
       
       
       
@@ -32,7 +48,7 @@ const Presentation = () => {
               <span className="text-[#6e95bc]">based in Venezuela. </span>
             </h1>
             <p className="lg:text-sm min-[1700px]:text-lg text-[#ffffff] text-justify">
-            I am a systems engineer, I am passionate about technology and its constant evolution. I am a responsible, proactive, sociable, committed to work, with leadership and organization of multidisciplinary teams, flexible to change and constant challenge.
+            I am a systems engineer, passionate about technology and its constant evolution. I am a responsible, proactive, sociable, committed to work, with leadership and organization of multidisciplinary teams, flexible to change and constant challenge.
             </p>
           </div>
         </article>
