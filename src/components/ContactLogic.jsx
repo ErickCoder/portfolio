@@ -58,6 +58,7 @@ export const ContactLogic = () => {
           Now that you know a lot about me, let me know if you are interested to
           work with me.
         </p>
+        
       </article>
       <form ref={form} onSubmit={sendEmail} className="grid text-white px-4">
         <section className="grid px-4 mt-6">
@@ -102,7 +103,7 @@ export const ContactLogic = () => {
             <input type="submit" value="Send" />
           </button>
             </div>
-         
+
         </section>
       </form>
     </section>

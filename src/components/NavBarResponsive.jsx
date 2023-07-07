@@ -24,7 +24,7 @@ const NavBarResponsive = () => {
          <span className='text-3xl text-[#10fcdc] mr-1 pt-2'>
         <ion-icon name="globe-outline"></ion-icon>
         </span> 
-        <span className='font-sen text-white'>
+        <span className='font-sen text-white md:text-xl'>
         Erick Cedeño
         </span>
     

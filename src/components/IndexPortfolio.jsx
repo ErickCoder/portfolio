@@ -9,11 +9,13 @@ import Behance from "./Behance";
 import Languages from "./Languages";
 import { ContactLogic } from "./ContactLogic";
 import NavBarResponsive from "./NavBarResponsive";
+import ButtonWhatsapp from "./ButtonWhatsapp";
 
 const IndexPortfolio = () => {
   return (
     <section className="max-w-[1600px] justify-center mx-auto">
       <NavBarResponsive />
+      <ButtonWhatsapp/>
       <Presentation />
       <WorkExperience />
       <Languages />

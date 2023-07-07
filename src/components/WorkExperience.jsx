@@ -3,9 +3,10 @@ import React from "react";
 const WorkExperience = () => {
   return (
     <section className="grid gap-y-10 ">
+
       <section className="min-w-[100%] md:pl-3">
         <p className="text-[#8491A0] py-12 pb-2 px-6 font-sen font-bold  ">
-          EXPERIENCE
+          KNOWLEDGE
         </p>
         <p className="text-white font-sen font-bold text-3xl px-6 lg:text-[3rem] tracking-normal lg:tracking-wide lg:leading-tight">
           Main programming languages <br /> and source control.

@@ -1,0 +1,100 @@
+
+.btn-whats{
+  background-color: #25D366;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 800px;
+  padding: 20px;
+  top: 92%;
+  left: 90%;
+  position: fixed;
+  transition: all .6s;
+  animation: 2s btn-whats;
+  animation-fill-mode: both;
+  
+  
+  z-index: 1;
+}.btn-whats:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.pulse{
+  animation: pulse 2s infinite;
+}
+
+
+
+.btn-whats > i{
+  position: relative;
+  font-size: 2.4rem;
+  margin: -14px -10px;
+  padding-bottom: -3px;
+
+}
+
+@media only screen and (max-width: 1024px){
+  .btn-whats{
+    left: 93%;
+    top: 90%;
+  }
+  
+
+}
+
+@media only screen and (min-width: 1440px){
+  .btn-whats{
+    left: 95%;
+  }
+  
+
+}
+
+@media only screen and (min-width: 1600px){
+  .btn-whats{
+    left: 96%;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 768px){
+  .btn-whats{
+    left: 92%;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .btn-whats{
+    left: 84%;
+  }
+  
+}
+
+@media only screen and (max-width: 350px){
+  .btn-whats{
+    left: 82%;
+  }
+}
+
+@keyframes btn-whats{
+  10%{
+    transform: translate(0, 200px); 
+  }
+  50%{
+    transform: translate(0, -40px);
+  }
+  
+  70%{
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  50%{
+    transform: scale(1.1);
+  }
+}
+

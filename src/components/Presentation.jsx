@@ -1,4 +1,5 @@
 import React from "react";
+import "./Styles/textPresentation.css";
 
 const Presentation = () => {
   return (
@@ -47,9 +48,25 @@ const Presentation = () => {
               I'm Erick Cedeño. A fronted developer{" "}
               <span className="text-[#6e95bc]">based in Venezuela. </span>
             </h1>
-            <p className="lg:text-sm min-[1700px]:text-lg text-[#ffffff] text-justify">
-            I am a systems engineer, passionate about technology and its constant evolution. I am a responsible, proactive, sociable, committed to work, with leadership and organization of multidisciplinary teams, flexible to change and constant challenge.
+            <p className="color__text lg:text-lg min-[1700px]:text-lg text-[#ffffff] text-justify">
+              I am a systems engineer, passionate about technology and its
+              constant evolution. I am a responsible, proactive, sociable,
+              committed to work, with leadership and organization of
+              multidisciplinary teams, flexible to change and constant
+              challenge.
             </p>
+            <div className="cv mx-auto grid bg-[#567ba0] hover:bg-[#6e95bc] duration-300  px-2 py-1">
+              <a
+                download="CV_ERICK_CEDEÑO"
+                href="/cv/CV.pdf"
+                className="text-white  " 
+              >
+                <p className="font-semibold">Download CV 
+                <i className='bx bxs-download font-semibold text-xl pl-2 pt-1 text-white '></i>
+             
+                </p>
+              </a>
+            </div>
           </div>
         </article>
       </section>
