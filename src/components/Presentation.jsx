@@ -45,7 +45,7 @@ const Presentation = () => {
           </div>
           <div className="flex flex-col md:p-11 lg:p-14 xl:p-16 min-[1600px]:p-4 gap-5 p-5 md:justify-center md:z-10">
             <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl xl:text-7xl min-[1600px]:text-8xl  text-white ">
-              I'm Erick Cedeño. A fronted developer{" "}
+              I'm Erick Cedeño. A Web full stack developer{" "}
               <span data-text='based in Venezuela.' className="text-[#6e95bc]">based in Venezuela. </span>
             </h1>
             <p className="color__text lg:text-lg min-[1700px]:text-lg text-[#ffffff] text-justify">
