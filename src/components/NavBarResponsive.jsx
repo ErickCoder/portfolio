@@ -38,7 +38,7 @@ const NavBarResponsive = () => {
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-6 text-xl md:my-0 my-7'>
-              <a href={link.link} className='text-[#98a7b8] hover:text-[#10fcdc] duration-500'>{link.name}</a>
+              <a href={link.link} className='text-[#98a7b8] hover:text-black md:py-4 duration-500'>{link.name}</a>
             </li>
           ))
         }
